@@ -4,7 +4,7 @@ const eventManager = require("./eventManager");
 require("./events/userEvents");
 
 // Emit events dynamically
-eventManager.emit("user-login", { username: "Smit" });
+eventManager.emit("user-login", { username: "Harsh" });
 eventManager.emit("user-login", { username: "Rahul" });
 
 eventManager.emit("user-purchase", {
@@ -18,3 +18,4 @@ eventManager.emit("user-logout", { username: "Smit" });
 
 // Trigger summary
 eventManager.emit("summary");
+
