@@ -1,0 +1,17 @@
+{
+  "name": "exp3_mongodb",
+  "version": "1.0.0",
+  "description": "MongoDB CRUD operations demo using Mongoose",
+  "main": "mongodb_operations.js",
+  "scripts": {
+    "start": "node mongodb_operations.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongoose": "^9.4.1"
+  }
+}

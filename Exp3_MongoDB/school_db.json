@@ -1,0 +1,31 @@
+{
+  "database": "school_db",
+  "collection": "students",
+  "description": "Sample data for the MongoDB CRUD demo",
+  "students": [
+    {
+      "name": "Aman",
+      "age": 21,
+      "course": "Computer Science",
+      "email": "aman@example.com"
+    },
+    {
+      "name": "Riya",
+      "age": 20,
+      "course": "Information Technology",
+      "email": "riya@example.com"
+    },
+    {
+      "name": "Karan",
+      "age": 22,
+      "course": "Electronics",
+      "email": "karan@example.com"
+    },
+    {
+      "name": "Neha",
+      "age": 19,
+      "course": "Mathematics",
+      "email": "neha@example.com"
+    }
+  ]
+}

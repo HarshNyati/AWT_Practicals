@@ -1,0 +1,13 @@
+{% extends 'students/base.html' %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ title }}</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-primary" type="submit">Save</button>
+        <a class="btn btn-secondary" href="/students/">Cancel</a>
+    </form>
+</div>
+{% endblock %}
